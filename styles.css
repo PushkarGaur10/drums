@@ -1,0 +1,37 @@
+body{
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-image:url("background.jpg");
+}
+.allbutton{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  margin-top: 350px;
+}
+.allbutton button{
+  margin: 0 20px;
+  height: 100px;
+  color: yellowgreen;
+  font-size: 40px;
+}
+.a{
+  background-image:url("images/crash.png") ;
+}
+.s{
+  background-image: url("images/kick.png");
+}
+.d{
+  background-image: url("images/snare.png");
+}
+.w{
+  background-image: url("images/tom1.png");
+}
+.q{
+  background-image: url("images/tom2.png");
+}
+.e{
+  background-image: url("images/tom3.png");
+}
+.x{
+  background-image:url("images/tom4.png") ;
+}
